@@ -1,0 +1,363 @@
+/* styles.css */
+
+/* О-ВВ-окно регистрации */
+#root {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D2DFFF; /* Цвет фона */
+}
+
+/* Rectangle 111 */
+#rectangle111 {
+  position: absolute;
+  width: 916px;
+  height: 599px;
+  left: 406px;
+  top: 258px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+/* Rectangle 112 */
+ 
+ /* body {
+  margin:40px;
+}
+* {
+  box-sizing: border-box;
+}
+input {
+  position: absolute;
+  width: 651px;
+  height: 85px;
+  left: 539px;
+  top: 411px;
+  background: #D2DFFF;
+  border-radius: 30px;
+}
+.rectangle112 {
+  position: absolute;
+
+}
+.rectangle112:hover {
+  border: 1px solid #ff0505;
+} */
+
+
+body {
+  margin:40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.rectangle112 {
+  padding:31px; /* отступ в блоке  */
+  position: absolute;
+  width: 651px;
+  height: 85px;
+  left: 539px;
+  top: 411px;
+  background: #D2DFFF;  /* фон в кнопке */
+  border-radius: 30px; 
+  border: 1px solid #eee;
+
+  font-family: 'Rubik';  /* текст в логине */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.045em;
+  color: #000000;  /* цвет текста логина */
+
+
+}
+.rectangle112:hover {
+  border: 1px solid #aaa;
+
+}
+
+input::placeholder {
+
+  padding:45px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.045em;
+
+  color: #FFFFFF; /* цвет плэйсхолдера --> имя пользователя крш */
+
+}
+
+
+body {
+  margin:40px;
+}
+* {
+  box-sizing: border-box;
+}
+/* Rectangle 113 */
+.rectangle113 {
+  padding:31px; /* отступ в блоке  */
+  position: absolute;
+  width: 651px;
+  height: 85px;
+  left: 539px;
+  top: 526px;
+  background: #D2DFFF;  /* фон в кнопке */
+  border-radius: 30px; 
+  border: 1px solid #eee;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.045em;
+
+  color: #000000;
+ 
+}
+
+.rectangle113:hover {
+  border: 1px solid #aaa;
+}
+
+body {
+  margin:40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Rectangle 115 */
+.rectangle115 {
+  position: absolute;
+  width: 351px;
+  height: 85px;
+  left: 689px;
+  top: 685px;
+  background: #99B6FF;
+  border-radius: 30px;
+  border: 1px solid #eee;
+  color: #000000;
+  transition: transform 0.2s;
+
+
+
+}
+
+.rectangle115:hover {
+  border: 1px solid #aaa;
+}
+
+button.rectangle115 {
+  /* ВХОД */
+font-style: normal;
+font-weight: 50;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.045em;
+
+color: #FFFFFF;
+
+}
+
+button.rectangle115:active,
+button.rectangle115:hover {
+  transform: translateY(4px); /* Сдвиг кнопки на 2 пикселя вниз при нажатии или наведении */
+  transition: transform 0.2s; /* Плавная анимация с помощью перехода */
+}
+
+button.rectangle115:active {
+  transform: scale(0.9);
+}
+
+
+/* Вход в систему */
+#loginText {
+  position: absolute;
+  width: 268px;
+  height: 47px;
+  left: 730px;
+  top: 306px;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+
+
+
+/* Имя пользователя */
+.usernameLabel {
+  position: absolute;
+  width: 190px;
+  height: 28px;
+  left: 584px;
+  top: 439px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+}
+
+/* ВХОД */
+.loginButton {
+  position: absolute;
+  width: 79px;
+  height: 38px;
+  left: 825px;
+  top: 709px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+}
+
+/* Пароль */
+.passwordLabel {
+  position: absolute;
+  width: 77px;
+  height: 28px;
+  left: 584px;
+  top: 555px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #FFFFFF;
+}
+
+/* Запомнить пароль */
+.rememberPassword {
+  position: absolute;
+  width: 128px;
+  height: 19px;
+  left: 604px;
+  top: 636px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+/* Забыли свой пароль? */
+.forgotPassword {
+  position: absolute;
+  width: 185px;
+  height: 24px;
+  left: 772px;
+  top: 887px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+/* Rectangle 114 */
+.rectangle114 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+
+
+  background: #D9D9D9;
+}
+
+body {
+  margin:30px;
+  font-size:18px;
+}
+
+/* container */
+label {
+  position: relative; /* to contain absolute elements */
+  padding-left:30px; /* free space for custom checkbox */
+  cursor: pointer;
+  left: 573px; /* Местоположение*/
+  top: 638px;
+}
+/* hide default checkbox  */
+label input[type=checkbox] {
+  position: absolute; /* prevent taking any space */
+  /* cross-browser hidingg */
+  opactiy: 0;
+  width:0; 
+  height:0;
+}
+/* custom checkbox */
+label span {
+  position: absolute;
+  /* position to the free space in <label> */
+  top:0;
+  left:0;
+  width:20px; 
+  height:20px;
+  background-color: #D9D9D9; 
+  transition: .3s background-color; /* slight transition */
+}
+/* the check icon */
+label span:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+  /* check icon */
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+label:hover span {
+  background-color: #ccc;
+}
+
+/**** Here's the trick ***/
+label input:checked ~ span {
+  background-color: #2eaadc;
+}
+label input:checked ~ span:after {
+  display:block;
+}
